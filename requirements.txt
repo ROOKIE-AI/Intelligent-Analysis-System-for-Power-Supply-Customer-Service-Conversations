@@ -1,28 +1,28 @@
 # Start of Selection
 # Web 应用框架
-streamlit>=1.28.0
+streamlit
 
 # LLM 相关
-langchain>=0.1.0
-langchain-openai>=0.0.2
-openai>=1.3.0
+langchain
+langchain-openai
+openai
 
 # 文档处理
-python-dotenv>=1.0.0
-pypdf>=3.17.0
+python-dotenv
+pypdf
 PyPDFLoader
 
 # 向量存储
-faiss-cpu>=1.7.4
+faiss-cpu
 
 # 工具库
-numpy>=1.24.0
-pandas>=2.0.0
+numpy
+pandas
 
 # 其他依赖
-python-multipart>=0.0.6
-requests>=2.31.0
-
-sounddevice>=0.4.6
-soundfile>=0.12.1 
+python-multipart
+requests
+    
+sounddevice
+soundfile
 # End of Selection
