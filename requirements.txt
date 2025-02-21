@@ -1,4 +1,8 @@
 # Start of Selection
+
+# 升级 pip
+pip install --upgrade pip
+
 # Web 应用框架
 streamlit
 
@@ -22,7 +26,8 @@ pandas
 # 其他依赖
 python-multipart
 requests
-    
+
 sounddevice
 soundfile
+
 # End of Selection
