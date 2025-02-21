@@ -53,6 +53,10 @@ project_root/
 
 1. **安装依赖**
 ```bash
+# Windows 用户使用
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# Linux/Mac 用户使用
 pip install -r requirements.txt
 ```
 
@@ -119,17 +123,45 @@ soundfile>=0.12.1
 
 ## 常见问题
 
-1. **Q: 配置保存失败？**
-   A: 检查 API Key 和 Base URL 是否填写完整
+1. **Windows 安装依赖失败**
+   - 使用清华源安装：
+     ```bash
+     pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+     ```
+   - 或使用命令：
+     ```bash
+     pip install --no-cache-dir -r requirements.txt
+     ```
 
-2. **Q: 音频处理失败？**
-   A: 确认音频格式是否支持，文件是否完整
-
-3. **Q: 知识库加载失败？**
-   A: 检查 PDF 文件是否存在于 data 目录
+2. **Streamlit 命令未找到**
+   - 确保 pip 安装成功
+   - 尝试重新打开命令行
+   - 或使用完整路径：
+     ```bash
+     python -m streamlit run app.py
+     ```
 
 ## 更新日志
 
 ### v1.0.0
 - 初始版本发布
 - 实现基础功能：音频转写、智能分析、解决方案生成
+
+## 配置说明
+
+### API配置
+- **API Key**: OpenAI API密钥，可从 [OpenAI API Keys](https://platform.openai.com/api-keys) 获取
+- **API Base URL**: API接口地址，默认使用OpenAI官方接口
+- 支持使用其他兼容的API服务商
+
+### 模型参数
+- **模型选择**: 支持 gpt-4o-mini、gpt-3.5-turbo、gpt-4
+- **Temperature**: 控制输出随机性（0-1）
+  - 0: 固定输出
+  - 1: 最大随机性
+
+### 知识库参数
+- **分块大小**: 文档分块大小（100-2000）
+- **重叠大小**: 文档分块重叠大小（0-500）
+
+这些参数可以在系统界面的侧边栏中进行配置。

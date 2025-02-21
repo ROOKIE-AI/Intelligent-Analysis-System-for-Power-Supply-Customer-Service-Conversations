@@ -1,5 +1,3 @@
-# Start of Selection
-
 # Web 应用框架
 streamlit>=1.28.0
 
@@ -21,9 +19,7 @@ faiss-cpu>=1.7.4
 sounddevice>=0.4.6
 soundfile>=0.12.1
 
-# 基础工具库
-numpy>=2.2.1
-pandas>=2.2.3
+
 
 # HTTP 客户端
 requests>=2.32.3
@@ -31,5 +27,3 @@ requests>=2.32.3
 # 其他依赖
 python-multipart>=0.0.6
 python-dateutil>=2.9.0
-
-# End of Selection
