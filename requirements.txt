@@ -1,8 +1,5 @@
 # Start of Selection
 
-# 升级 pip
-pip install --upgrade pip
-
 # Web 应用框架
 streamlit
 
