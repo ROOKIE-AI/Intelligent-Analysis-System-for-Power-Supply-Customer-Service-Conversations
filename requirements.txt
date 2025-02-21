@@ -1,29 +1,33 @@
 # Start of Selection
 
 # Web 应用框架
-streamlit
+streamlit>=1.28.0
 
 # LLM 相关
-langchain
-langchain-openai
-openai
+langchain>=0.1.0
+langchain-openai>=0.0.2
+openai>=1.3.0
 
 # 文档处理
-python-dotenv
-pypdf
+python-dotenv>=1.0.0
+pypdf>=3.17.0
 
 # 向量存储
-faiss-cpu
+faiss-cpu>=1.7.4
 
-# 工具库
-numpy
-pandas
+# 音频处理
+sounddevice>=0.4.6
+soundfile>=0.12.1
+
+# 基础工具库
+numpy>=2.2.1
+pandas>=2.2.3
+
+# HTTP 客户端
+requests>=2.32.3
 
 # 其他依赖
-python-multipart
-requests
-
-sounddevice
-soundfile
+python-multipart>=0.0.6
+python-dateutil>=2.9.0
 
 # End of Selection
