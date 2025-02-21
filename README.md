@@ -6,13 +6,16 @@
 
 🔗 **在线演示**: [https://master-qtqkunyeoqrl22xzuyxayp.streamlit.app/](https://master-qtqkunyeoqrl22xzuyxayp.streamlit.app/)
 
+
+
 ## 项目结构
 
 ```
 project_root/
 ├── src/
 │   ├── config/           # 配置相关
-│   │   └── settings.py   # 系统配置
+│   │   ├── settings.py   # 系统配置
+│   │   └── models.json   # 模型配置
 │   ├── core/            # 核心功能
 │   │   ├── llm.py      # LLM服务
 │   │   └── qa_chain.py # 知识库检索

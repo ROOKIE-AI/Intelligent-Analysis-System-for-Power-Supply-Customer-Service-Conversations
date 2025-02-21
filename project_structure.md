@@ -1,7 +1,8 @@
 project_root/
 ├── src/
 │   ├── config/           # 配置相关
-│   │   └── settings.py
+│   │   ├── settings.py   # 系统配置
+│   │   └── models.json    # 模型配置
 │   ├── core/            # 核心功能
 │   │   ├── __init__.py
 │   │   ├── llm.py      # LLM相关功能
