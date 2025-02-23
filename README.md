@@ -58,11 +58,7 @@ project_root/
 
 1. **安装依赖**
 ```bash
-# Windows 用户使用
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
-
-# Linux/Mac 用户使用
-pip install -r requirements.txt
 ```
 
 2. **准备知识库**
