@@ -1,5 +1,7 @@
-# 供电服务智能问答系统
+# 供电服务智能问答系统 [![Open in Streamlit][share_badge]][share_link]
 
+[share_badge]: https://static.streamlit.io/badges/streamlit_badge_black_white.svg
+[share_link]: https://master-qtqkunyeoqrl22xzuyxayp.streamlit.app/
 ## 简介
 
 供电服务智能问答系统是一个基于大语言模型的智能客服解决方案，通过处理客户音频通话记录，提供智能分析和专业解答。系统集成了供电营业规则知识库，可以自动提取关键信息并生成专业的解决方案。
